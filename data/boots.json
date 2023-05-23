@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Grevas do Berserker",
+    "image": "./assets/boots/3006.png",
+    "mythic": false
+  },
+  {
+    "name": "Botas Ionianas da Lucidez",
+    "image": "./assets/boots/3158.png",
+    "mythic": false
+  },
+  {
+    "name": "Botas da Rapidez",
+    "image": "./assets/boots/3009.png",
+    "mythic": false
+  },
+  {
+    "name": "Botas Galvanizadas de Aço",
+    "image": "./assets/boots/3047.png",
+    "mythic": false
+  },
+  {
+    "name": "Botas da Mobilidade",
+    "image": "./assets/boots/3117.png",
+    "mythic": false
+  },
+  {
+    "name": "Passos de Mercúrio",
+    "image": "./assets/boots/3111.png",
+    "mythic": false
+  },
+  {
+    "name": "Sapatos do Feiticeiro",
+    "image": "./assets/boots/3020.png",
+    "mythic": false
+  }
+]

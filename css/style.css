@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+html {
+  height: 100vh;
+}
+
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  background: hsl(0, 100%, 40%);
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+button:hover,
+span:hover {
+  background: hsl(0, 100%, 20%);
+}
+
+#app {
+  min-height: 100vh;
+  width: 100%;
+  background: hsl(0, 0%, 10%);
+  color: #fff;
+  overflow-y: auto;
+  justify-content: flex-start;
+}
+
+[v-cloak] {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#header {
+  background: hsl(0, 0%, 8%);
+}
+
+.flex-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.item {
+  background: hsl(0, 0%, 15%);
+}
+
+#participants {
+  width: 50%;
+  border-radius: 0;
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+span {
+  background-color: red;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  transition: background-color 200ms ease;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Barreira",
+    "image": "./assets/spells/SummonerBarrier.png"
+  },
+  {
+    "name": "Purificar",
+    "image": "./assets/spells/SummonerBoost.png"
+  },
+  {
+    "name": "Incendiar",
+    "image": "./assets/spells/SummonerDot.png"
+  },
+  {
+    "name": "Exaustão",
+    "image": "./assets/spells/SummonerExhaust.png"
+  },
+  {
+    "name": "Flash",
+    "image": "./assets/spells/SummonerFlash.png"
+  },
+  {
+    "name": "Fantasma",
+    "image": "./assets/spells/SummonerHaste.png"
+  },
+  {
+    "name": "Curar",
+    "image": "./assets/spells/SummonerHeal.png"
+  },
+  {
+    "name": "Clareza",
+    "image": "./assets/spells/SummonerMana.png"
+  },
+  {
+    "name": "Bolinha de Neve",
+    "image": "./assets/spells/SummonerSnowball.png"
+  }
+]

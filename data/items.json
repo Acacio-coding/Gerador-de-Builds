@@ -1,0 +1,972 @@
+[
+  {
+    "name": "Hino Bélico de Shurelya",
+    "image": "./assets/items/2065.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Proteção Imutável",
+    "image": "./assets/items/3001.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Putrificador Quimtec",
+    "image": "./assets/items/3011.png",
+    "mythic": false,
+    "anti_heal": true,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Gume do Infinito",
+    "image": "./assets/items/3031.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Lembrete Mortal",
+    "image": "./assets/items/3033.png",
+    "mythic": false,
+    "anti_heal": true,
+    "shield": false,
+    "mana": false,
+    "armor_pen": true,
+    "hidra": false
+  },
+  {
+    "name": "Lembranças do Lorde Dominik",
+    "image": "./assets/items/3036.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": true,
+    "hidra": false
+  },
+  {
+    "name": "Dançarina Fantasma",
+    "image": "./assets/items/3046.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Convergência de Zeke",
+    "image": "./assets/items/3050.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Sinal de Sterak",
+    "image": "./assets/items/3053.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": true,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Semblante Espiritual",
+    "image": "./assets/items/3065.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Égide de Fogo Solar",
+    "image": "./assets/items/3068.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Cutelo Negro",
+    "image": "./assets/items/3071.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Sedenta por Sangue",
+    "image": "./assets/items/3072.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Hidra Raivosa",
+    "image": "./assets/items/3074.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": true
+  },
+  {
+    "name": "Armadura de Espinhos",
+    "image": "./assets/items/3075.png",
+    "mythic": false,
+    "anti_heal": true,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Força da Trindade",
+    "image": "./assets/items/3078.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Armadura de Warmog",
+    "image": "./assets/items/3083.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Coração de Aço",
+    "image": "./assets/items/3084.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Furacão de Runaan",
+    "image": "./assets/items/3085.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Faca de Statikk",
+    "image": "./assets/items/3087.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Capuz da Morte de Rabadon",
+    "image": "./assets/items/3089.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Limite da Razão",
+    "image": "./assets/items/3091.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Canhão Fumegante",
+    "image": "./assets/items/3094.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Chuva de Canivete",
+    "image": "./assets/items/3095.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Perdição de Lich",
+    "image": "./assets/items/3100.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Véu da Banshee",
+    "image": "./assets/items/3102.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Redenção",
+    "image": "./assets/items/3107.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Juramento do Cavaleiro",
+    "image": "./assets/items/3109.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Coração Congelado",
+    "image": "./assets/items/3110.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Dente de Na'Shor",
+    "image": "./assets/items/3115.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Cetro de Cristal de Rylai",
+    "image": "./assets/items/3116.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Lâmina da Fúria de Guinsoo",
+    "image": "./assets/items/3124.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Cajado do Vazio",
+    "image": "./assets/items/3135.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Cimitarra Mercurial",
+    "image": "./assets/items/3139.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Lâmina Fantasma de Youmuu",
+    "image": "./assets/items/3142.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Presságio de Randuin",
+    "image": "./assets/items/3143.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Explocinturão Hextec",
+    "image": "./assets/items/3152.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Espada do Rei Destruído",
+    "image": "./assets/items/3153.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Mandíbula de Malmortius",
+    "image": "./assets/items/3156.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": true,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Cajado do Arcanjo",
+    "image": "./assets/items/3003.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": true,
+    "mana": true,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Manamune",
+    "image": "./assets/items/3004.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": true,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Ampulheta de Zhonya",
+    "image": "./assets/items/3157.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Lança de Shojin",
+    "image": "./assets/items/3161.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Morellonomicon",
+    "image": "./assets/items/3165.png",
+    "mythic": false,
+    "anti_heal": true,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Glaive Sombria",
+    "image": "./assets/items/3179.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Medalhão dos Solari de Ferro",
+    "image": "./assets/items/3190.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Placa Gargolítica",
+    "image": "./assets/items/3193.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Bênção de Mikael",
+    "image": "./assets/items/3222.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Turíbulo Ardente",
+    "image": "./assets/items/3504.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Colhedor de Essência",
+    "image": "./assets/items/3508.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Couraça do Defunto",
+    "image": "./assets/items/3742.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Hidra Titânica",
+    "image": "./assets/items/3748.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": true
+  },
+  {
+    "name": "Limiar da Noite",
+    "image": "./assets/items/3814.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Mandato Imperial",
+    "image": "./assets/items/4005.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Força da Natureza",
+    "image": "./assets/items/4401.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Foco do Horizonte",
+    "image": "./assets/items/4628.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Ímpeto Cósmico",
+    "image": "./assets/items/4629.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Criafendas",
+    "image": "./assets/items/4633.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Colhedor Noturno",
+    "image": "./assets/items/4636.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Abraço Demoníaco",
+    "image": "./assets/items/4637.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Coroa da Rainha Despedaçada",
+    "image": "./assets/items/4644.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Chama Sombria",
+    "image": "./assets/items/4645.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Alvorada de Pratânia",
+    "image": "./assets/items/6035.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Dança da Morte",
+    "image": "./assets/items/6333.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Serrespada Quimiopunk",
+    "image": "./assets/items/6609.png",
+    "mythic": false,
+    "anti_heal": true,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Cajado Aquafluxo",
+    "image": "./assets/items/6616.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Regenerador de Pedra Lunar",
+    "image": "./assets/items/6617.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Ecos de Helia",
+    "image": "./assets/items/6620.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Hemodrenário",
+    "image": "./assets/items/6630.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Quebrapassos",
+    "image": "./assets/items/6631.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Aproximação Invernal",
+    "image": "./assets/items/3119.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": true,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Ruptor Divino",
+    "image": "./assets/items/6632.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Angústia de Liandry",
+    "image": "./assets/items/6653.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Tormenta de Luden",
+    "image": "./assets/items/6655.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Glacieterno",
+    "image": "./assets/items/6656.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Bastão das Eras",
+    "image": "./assets/items/6657.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Manopla dos Glacinatas",
+    "image": "./assets/items/6662.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Quimiotanque Turbo",
+    "image": "./assets/items/6664.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Jak'Sho, o Inconstante",
+    "image": "./assets/items/6665.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Virtude Radiante",
+    "image": "./assets/items/6667.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Força do Vendaval",
+    "image": "./assets/items/6671.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Mata-Cráquens",
+    "image": "./assets/items/6672.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Arco-escudo Imortal",
+    "image": "./assets/items/6673.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": true,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Adagas Rápidas Navori",
+    "image": "./assets/items/6675.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "A Coletora",
+    "image": "./assets/items/6676.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Crepúsculo de Draktharr",
+    "image": "./assets/items/6691.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Eclipse",
+    "image": "./assets/items/6692.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Garra do Espreitador",
+    "image": "./assets/items/6693.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Rancor de Serylda",
+    "image": "./assets/items/6694.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": true,
+    "hidra": false
+  },
+  {
+    "name": "Presa da Serpente",
+    "image": "./assets/items/6695.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Arco do Axioma",
+    "image": "./assets/items/6696.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Centro de Comando",
+    "image": "./assets/items/7022.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Equinócio",
+    "image": "./assets/items/7023.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Amanhecer Primordial",
+    "image": "./assets/items/7027.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Convergência Infinita",
+    "image": "./assets/items/7028.png",
+    "mythic": true,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Correntes de Anátema",
+    "image": "./assets/items/8001.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  },
+  {
+    "name": "Máscara Abissal",
+    "image": "./assets/items/8020.png",
+    "mythic": false,
+    "anti_heal": false,
+    "shield": false,
+    "mana": false,
+    "armor_pen": false,
+    "hidra": false
+  }
+]

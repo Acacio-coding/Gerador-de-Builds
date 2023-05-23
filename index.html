@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Build lixo generator</title>
+
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="app" class="flex-column gap-10">
+      <div id="header" class="flex-column w-100 gap-10 p-10">
+        <div class="flex-row w-100">
+          <input ref="participants" placeholder="Digite um nome e aperte Enter..." id="participants" v-on:keyup.enter="addParticipant($event)" type="text">
+        </div>
+
+        <div class="flex-row w-100">
+          <h4 v-cloak class="subtitle flex-row gap-10">
+            Participants: <span v-cloak v-for="(person, key) in participants" @click="removeParticipant(key)" v-if="participants.length > 0" >{{person}}</span>
+          </h4>
+        </div>
+
+        <div class="flex-row w-100">
+          <button v-cloak type="button" @click="drawTeams()" class="w-50 p-10">
+            Sortear
+          </button>
+        </div>
+      </div>
+
+      <div v-if="participants.length > 1" class="w-100 flex-column gap-10">
+        <h2>Nós</h3>
+        <div
+          v-cloak
+          v-for="element in actualTeamA"
+          :key="element.participant"
+          class="flex-column w-100 p-10 gap-10 item"
+        >
+          <h3>{{ element.participant }}</h1>
+
+          <div>
+            <img v-cloak width="100" height="100" :src="element.champion.image" alt="FODEU">
+          </div>
+
+          <h3>{{ element.champion.name }}</h3>
+
+          <div class="w-100 flex-row gap-10">
+            <img v-cloak v-for="item in element.champion.items" :key="item.name" :src="item.image" alt="FODEU">
+          </div>
+
+          <div class="w-100 flex-row gap-10">
+            <img v-cloak v-for="spell in element.champion.spells" :key="spell.name" :src="spell.image" alt="FODEU">
+          </div>
+        </div>
+
+        <h2>Eles</h3>
+        <div
+          v-cloak
+          v-for="element in actualTeamB"
+          :key="element.participant"
+          class="flex-column w-100 p-10 gap-10 item"
+        >
+          <h3>{{ element.participant }}</h1>
+
+          <div>
+            <img width="100" height="100" :src="element.champion.image" alt="FODEU">
+          </div>
+
+          <h3>{{ element.champion.name }}</h3>
+          
+          <div class="w-100 flex-row gap-10">
+            <img v-for="item in element.champion.items" :key="item.name" :src="item.image" alt="FODEU">
+          </div>
+
+          <div class="w-100 flex-row gap-10">
+            <img v-for="spell in element.champion.spells" :key="spell.name" :src="spell.image" alt="FODEU">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="module" src="/js/index.js"></script>
+  </body>
+</html>
