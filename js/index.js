@@ -237,6 +237,15 @@ createApp({
       this.teamA = [];
       this.teamB = [];
     },
+
+    clearEverything() {
+      this.actualTeamA = [];
+      this.actualTeamB = [];
+      this.participants = [];
+      localStorage.removeItem("teamA");
+      localStorage.removeItem("teamB");
+      localStorage.removeItem("participants");
+    },
   },
 
   async mounted() {

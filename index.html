@@ -27,10 +27,16 @@
             Sortear
           </button>
         </div>
+
+        <div class="flex-row w-100">
+          <button id="clean" v-cloak type="button" @click="clearEverything()" class="w-50 p-10">
+            Limpar
+          </button>
+        </div>
       </div>
 
       <div v-if="participants.length > 1" class="w-100 flex-column gap-10">
-        <h2>Nós</h3>
+        <h2 v-if="participants.length > 1">Nós</h3>
         <div
           v-cloak
           v-for="element in actualTeamA"
@@ -54,7 +60,7 @@
           </div>
         </div>
 
-        <h2>Eles</h3>
+        <h2 v-if="participants.length > 1">Eles</h3>
         <div
           v-cloak
           v-for="element in actualTeamB"

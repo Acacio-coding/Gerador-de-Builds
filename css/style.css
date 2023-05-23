@@ -114,3 +114,7 @@ span {
   border-radius: 3px;
   transition: background-color 200ms ease;
 }
+
+#clean {
+  background-color: blue;
+}
